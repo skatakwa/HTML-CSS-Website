@@ -1,0 +1,103 @@
+
+
+  body { /* body conatains background, text color, text font, and alignment */
+      
+    color: rgb(255, 255, 255);
+    background-image: url("https://pixelz.cc/wp-content/uploads/2019/03/wood-black-wqhd-1440p-wallpaper.jpg");
+    margin: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:Roboto, Helvetica ,sans-serif;
+} 
+
+
+.tab { /* Creates tabs in order left to right */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tab input[type="radio"] { /* Hides the radio-style input */
+    display: none;
+    
+}
+.tab label { /* Tabs and tab name, text color, different color if tab is clicked  */
+    padding: 25px;
+    background: #000000;
+    font-weight: bold;
+    border: 3px solid rgb(235, 87, 87);
+    border-style: inset;
+    letter-spacing: 2px;
+}
+h2{ /* font size and color for each page heading */
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(21, 171, 182);
+}
+
+
+.tab .tabs { /* size and placing of tabs, order */
+    width: 100%;
+    padding: 20px;
+    order: 1;
+    display: none;  
+}
+
+.tab .tabs .h2 { /* font size for tab and headings */
+    font-size: 3em;
+}
+
+.tab input[type='radio']:checked + label + .tabs {
+    display: block;
+    
+}
+
+.tab input[type="radio"]:checked + label {
+    background: rgb(97, 69, 69);
+}
+
+h1{
+    font-size: 3em;
+}
+
+footer{ /* Footer placement, color */
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;  
+}
+p{
+    text-align: center;
+}
+
+span{
+    font-size: 1.7em;
+    line-height: 150%;
+    
+}
+
+#cal {
+    float: right;
+    margin: 20px;
+}
+
+#eve {
+    float: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+
+  

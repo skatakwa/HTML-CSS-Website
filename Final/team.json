@@ -1,0 +1,22 @@
+{"events":[
+	{
+		"title": "3135",
+		"type": "Coding Project",
+		"date": "June 28th, 2020",
+		"location": "Canvas online"
+	 },
+
+	 {
+		"title": "Tennis",
+		"type": "Sports Mathc",
+		"date": "June 29th, 2020",
+		"location": "Courts at the 123Ave"
+	 },
+
+	 {
+		"title": "Movie",
+		"type": "Movie night",
+		"date": "June 30th, 2020",
+		"location": "123 Theater"
+	 }
+]}
